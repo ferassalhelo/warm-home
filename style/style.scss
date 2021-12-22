@@ -1,0 +1,196 @@
+$colorMain: rgba(255, 255, 255, 0.7);
+$colorBranch: rgb(77, 77, 77);
+$colorBlack: rgba(20, 20, 20, 0.7);
+
+@mixin afterA {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  left: 50%;
+  background-color: $colorBranch;
+  transform: translate(-50%, -50%);
+}
+
+@for $a from 10 through 65 {
+  .fn-#{$a} {
+    font-size: #{$a}px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../img/bg-01.jpg);
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.sec1 {
+  background-image: url(../img/p3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.bk-wh {
+  background-color: $colorMain;
+}
+
+.bk-blk {
+  background-color: $colorBlack;
+}
+
+@media (max-width: 991px) {
+  .coll {
+    position: absolute;
+    left: -30px;
+    top: 100%;
+    width: 100%;
+    min-width: 120px;
+  }
+}
+.hr {
+  max-width: 400px;
+}
+
+div div a {
+  padding: 17px !important;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  border-top: 1px solid rgba(77, 77, 77, 0);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+div > div > a:hover {
+  color: $colorMain;
+  border-color: $colorBranch;
+  transition: all 0.2s;
+}
+
+div > div > a:hover::after {
+  @include afterA();
+}
+
+.act {
+  color: $colorBranch !important;
+  border-top: 1px solid $colorBranch;
+}
+
+.act::after {
+  @include afterA();
+}
+
+.mw {
+  max-width: 440px;
+}
+
+.p-fon {
+  font-size: 18.5px;
+  font-weight: 500;
+}
+
+.mw2 {
+  height: 550px !important;
+}
+
+.mw3 {
+  max-width: 600px !important;
+}
+
+.round {
+  border-radius: 15px;
+  border-width: 3px !important;
+}
+
+h4 i {
+  padding-left: 100px;
+  font-size: 30px;
+}
+
+.p-6 {
+  padding-top: 57px !important;
+  padding-bottom: 57px !important;
+}
+
+.p-7 {
+  padding-top: 65px !important;
+  padding-bottom: 65px !important;
+}
+
+img {
+  width: 100%;
+  height: 100;
+}
+
+.op {
+  opacity: 0.6;
+}
+
+.br-mu {
+  border: 1px solid #6c757d;
+}
+
+.actv {
+  outline: 2px solid white;
+}
+
+.actvv:hover {
+  outline: 1px solid white;
+  transition: outline 0.7s;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: white;
+}
+
+.plc::placeholder {
+  color: silver;
+}
+
+.gr {
+  color: rgb(13, 158, 146);
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.line-h {
+  line-height: 1.8;
+}

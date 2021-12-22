@@ -1,0 +1,446 @@
+.fn-10 {
+  font-size: 10px;
+}
+
+.fn-11 {
+  font-size: 11px;
+}
+
+.fn-12 {
+  font-size: 12px;
+}
+
+.fn-13 {
+  font-size: 13px;
+}
+
+.fn-14 {
+  font-size: 14px;
+}
+
+.fn-15 {
+  font-size: 15px;
+}
+
+.fn-16 {
+  font-size: 16px;
+}
+
+.fn-17 {
+  font-size: 17px;
+}
+
+.fn-18 {
+  font-size: 18px;
+}
+
+.fn-19 {
+  font-size: 19px;
+}
+
+.fn-20 {
+  font-size: 20px;
+}
+
+.fn-21 {
+  font-size: 21px;
+}
+
+.fn-22 {
+  font-size: 22px;
+}
+
+.fn-23 {
+  font-size: 23px;
+}
+
+.fn-24 {
+  font-size: 24px;
+}
+
+.fn-25 {
+  font-size: 25px;
+}
+
+.fn-26 {
+  font-size: 26px;
+}
+
+.fn-27 {
+  font-size: 27px;
+}
+
+.fn-28 {
+  font-size: 28px;
+}
+
+.fn-29 {
+  font-size: 29px;
+}
+
+.fn-30 {
+  font-size: 30px;
+}
+
+.fn-31 {
+  font-size: 31px;
+}
+
+.fn-32 {
+  font-size: 32px;
+}
+
+.fn-33 {
+  font-size: 33px;
+}
+
+.fn-34 {
+  font-size: 34px;
+}
+
+.fn-35 {
+  font-size: 35px;
+}
+
+.fn-36 {
+  font-size: 36px;
+}
+
+.fn-37 {
+  font-size: 37px;
+}
+
+.fn-38 {
+  font-size: 38px;
+}
+
+.fn-39 {
+  font-size: 39px;
+}
+
+.fn-40 {
+  font-size: 40px;
+}
+
+.fn-41 {
+  font-size: 41px;
+}
+
+.fn-42 {
+  font-size: 42px;
+}
+
+.fn-43 {
+  font-size: 43px;
+}
+
+.fn-44 {
+  font-size: 44px;
+}
+
+.fn-45 {
+  font-size: 45px;
+}
+
+.fn-46 {
+  font-size: 46px;
+}
+
+.fn-47 {
+  font-size: 47px;
+}
+
+.fn-48 {
+  font-size: 48px;
+}
+
+.fn-49 {
+  font-size: 49px;
+}
+
+.fn-50 {
+  font-size: 50px;
+}
+
+.fn-51 {
+  font-size: 51px;
+}
+
+.fn-52 {
+  font-size: 52px;
+}
+
+.fn-53 {
+  font-size: 53px;
+}
+
+.fn-54 {
+  font-size: 54px;
+}
+
+.fn-55 {
+  font-size: 55px;
+}
+
+.fn-56 {
+  font-size: 56px;
+}
+
+.fn-57 {
+  font-size: 57px;
+}
+
+.fn-58 {
+  font-size: 58px;
+}
+
+.fn-59 {
+  font-size: 59px;
+}
+
+.fn-60 {
+  font-size: 60px;
+}
+
+.fn-61 {
+  font-size: 61px;
+}
+
+.fn-62 {
+  font-size: 62px;
+}
+
+.fn-63 {
+  font-size: 63px;
+}
+
+.fn-64 {
+  font-size: 64px;
+}
+
+.fn-65 {
+  font-size: 65px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../img/bg-01.jpg);
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.sec1 {
+  background-image: url(../img/p3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.bk-wh {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.bk-blk {
+  background-color: rgba(20, 20, 20, 0.7);
+}
+
+@media (max-width: 991px) {
+  .coll {
+    position: absolute;
+    left: -30px;
+    top: 100%;
+    width: 100%;
+    min-width: 120px;
+  }
+}
+
+.hr {
+  max-width: 400px;
+}
+
+div div a {
+  padding: 17px !important;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  border-top: 1px solid rgba(77, 77, 77, 0);
+  text-align: center;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+div > div > a:hover {
+  color: rgba(255, 255, 255, 0.7);
+  border-color: #4d4d4d;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+div > div > a:hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  left: 50%;
+  background-color: #4d4d4d;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.act {
+  color: #4d4d4d !important;
+  border-top: 1px solid #4d4d4d;
+}
+
+.act::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  left: 50%;
+  background-color: #4d4d4d;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.mw {
+  max-width: 440px;
+}
+
+.p-fon {
+  font-size: 18.5px;
+  font-weight: 500;
+}
+
+.mw2 {
+  height: 550px !important;
+}
+
+.mw3 {
+  max-width: 600px !important;
+}
+
+.round {
+  border-radius: 15px;
+  border-width: 3px !important;
+}
+
+h4 i {
+  padding-left: 100px;
+  font-size: 30px;
+}
+
+.p-6 {
+  padding-top: 57px !important;
+  padding-bottom: 57px !important;
+}
+
+.p-7 {
+  padding-top: 65px !important;
+  padding-bottom: 65px !important;
+}
+
+img {
+  width: 100%;
+  height: 100;
+}
+
+.op {
+  opacity: 0.6;
+}
+
+.br-mu {
+  border: 1px solid #6c757d;
+}
+
+.actv {
+  outline: 2px solid white;
+}
+
+.actvv:hover {
+  outline: 1px solid white;
+  -webkit-transition: outline 0.7s;
+  transition: outline 0.7s;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: white;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: white;
+}
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  color: white;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: white;
+}
+
+.plc::-webkit-input-placeholder {
+  color: silver;
+}
+
+.plc:-ms-input-placeholder {
+  color: silver;
+}
+
+.plc::-ms-input-placeholder {
+  color: silver;
+}
+
+.plc::placeholder {
+  color: silver;
+}
+
+.gr {
+  color: #0d9e92;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.line-h {
+  line-height: 1.8;
+}
+/*# sourceMappingURL=style.css.map */
